@@ -23,9 +23,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Print greeting
-        run: echo "Hello Woorld gente"
-      - name: Print goobye
-        run: echo "Done Bye!"
         run: |
-          echo "First output"
-          echo "Second output"
+          echo "Hello Woorld gente"
+          echo "Done Bye!"

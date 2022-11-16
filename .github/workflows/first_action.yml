@@ -3,7 +3,7 @@
 name: Test Workflow
 
 # Controla cuándo se ejecutará el flujo de trabajo
-on:
+on: 
   # Activa el flujo de trabajo en eventos de solicitud push o pull pero solo para la rama "principal"
   push:
     branches: [ "main" ]

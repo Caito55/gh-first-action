@@ -33,6 +33,7 @@ jobs:
       - name: Run tests
         run: npm test
   deploy:
+    needs: test
     # El tipo de corredor en el que se ejecutará el trabajo.
     runs-on: ubuntu-latest
 
